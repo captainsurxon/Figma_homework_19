@@ -1,0 +1,956 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+
+.container{
+    max-width: 1440px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(/images/images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+}
+
+
+.logo_images{
+    margin-top: 128px;
+}
+
+.section_1{
+    max-width: 730px;
+}
+.section_1 h1{
+    color: #4C545C;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.75px;
+    margin-top: 56px;
+}
+
+.section_1 p{
+    color: #9EABB2;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+    margin-top: 16px;
+}
+
+.two_button{
+    max-width: 470px;
+    height: 56px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 16px;
+    margin-top: 48px;
+}
+
+.but1 button{
+    width: 227px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: #26BBA4;
+    box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.50), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+.but2 button{
+    width: 227px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: #6174FF;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.10), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+.section_2{
+    max-width: 730px;
+}
+
+.section_2 h3{
+    color: #4C545C;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.587px;     
+    margin-top: 150px;
+}
+
+.section_2 p{
+    color: #9EABB2;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    letter-spacing: 0.135px;    
+    margin-top: 19px;
+}
+
+.section_3{
+    max-width: 1212px;
+    height: 572px;
+    flex-shrink: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 110px;
+    margin-top: 80px;
+}
+
+.laptopp img{
+    width: 752px;
+    height: 572px;
+    flex-shrink: 0;
+    margin-left: -287px;
+}
+
+.quick{
+    max-width: 350px;
+}
+.quick_search{
+    width: 350px;
+}
+.quick_search h4{
+    color: #4C545C;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.391px;
+    text-align:left;
+}
+
+.quick_search p{
+    color: #9EABB2;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.12px;   
+    text-align:left;
+    margin-top: 8px;
+}
+
+.icloud_sync h4{
+    color: #4C545C;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.391px;
+    text-align:left;
+    margin-top: 56px;
+}
+
+.icloud_sync p{
+    color: #9EABB2;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.12px;   
+    text-align:left;
+    margin-top: 8px;
+}
+
+.complete_history h4{
+    color: #4C545C;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.391px;
+    text-align:left;
+    margin-top: 56px;
+}
+
+.complete_history p{
+    color: #9EABB2;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.12px;   
+    text-align:left;
+    margin-top: 8px;
+}
+
+.access_clipboard{
+  max-width: 730px;
+}
+
+.access_clipboard h3{
+    color: #4C545C;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.587px;
+    margin-top: 150px;
+}
+
+.access_clipboard p{
+    color: #9EABB2;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    letter-spacing: 0.135px;   
+    margin-top: 19px; 
+}
+
+.table_phone{
+    margin-left: -50px;
+    margin-top: 112px;
+}
+
+.super{
+    max-width: 730px;
+}
+
+.super h3{
+    color: #4C545C;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.587px;  
+    margin-top: 163.2px;  
+}
+
+.super p{
+    color: #9EABB2;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    letter-spacing: 0.135px;  
+    margin-top: 19px;  
+}
+
+.three_log{
+    max-width: 1110px;
+    height: 216px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 76px;
+}
+
+.three_log img{
+    /* max-width: 50px; */
+}
+
+.create h4{
+    width: 350px;
+    color: #4C545C;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.391px;
+    margin-top: 40.11px;    
+}
+
+.create p{
+    color: #9EABB2;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.12px;    
+    margin-top: 16px;
+}
+
+.plain h4{
+    width: 350px;
+    color: #4C545C;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.391px;
+    margin-top: 40.11px;    
+}
+
+.plain p{
+
+    color: #9EABB2;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.12px;    
+    margin-top: 16px;
+}
+
+.sneak h4{
+    width: 350px;
+    color: #4C545C;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.391px;
+    margin-top: 40.11px;    
+}
+
+.sneak p{
+    color: #9EABB2;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.12px;    
+    margin-top: 16px;
+}
+
+.logotip{
+    max-width: 1100px;
+    height: 72px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 95.47px;
+    margin-top: 150px;
+}
+
+.ios{
+    max-width: 730px;
+}
+
+.ios h3{
+    color: #4C545C;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.587px;
+}
+
+.ios p{
+    color: #9EABB2;
+    text-align: center;
+    font-family: Bai Jamjuree;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    letter-spacing: 0.135px; 
+    margin-top: 19px;    
+}
+
+
+.buttons{
+    max-width: 470px;
+    height: 56px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 48px;
+}
+
+.download_ios button{
+    width: 227px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: #26BBA4;
+    box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.50), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+.download_mac button{
+    width: 227px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: #6174FF;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.10), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+.fot_ter{
+    width: 1440px;
+    height: 150px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+
+.ffootteerr{
+    width: 1440px;
+    height: 150px;
+    background: #9EABB2;
+    /* opacity: 10.02%; */
+    margin-top: 150px;
+    margin-left: -50px;
+    text-align: left;
+}
+
+.logo{
+width: 160px;
+color: #4C545C;
+font-family: 'Bai Jamjuree', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+letter-spacing: 0.135px;
+text-align: left;
+}
+
+.faqs{
+    width: 160px;  
+}
+
+.faqs a{
+    text-decoration: none;
+}
+.faqs a{
+    color: #4C545C;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    letter-spacing: 0.135px;
+    text-align: left;   
+    text-decoration: none;  
+}
+
+.facebook_twitter_instagram{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.end{
+
+}
+
+.facebook_twitter_instagram a{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+@media (max-width: 375px) {
+    .container {
+      padding: 20px;
+    }
+  
+    .section_1 h1 {
+      font-size: 30px;
+      margin-top: 30px;
+    }
+  
+    .section_1 p {
+      font-size: 16px;
+      line-height: 24px;
+      margin-top: 10px;
+    }
+  
+    .two_button {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 16px;
+      max-width: 300px;
+      margin-top: 30px;
+    }
+  
+    .but1 button,
+    .but2 button {
+      width: 140px;
+      height: 40px;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0.3px;
+    }
+
+    .section_2 h3 {
+        font-size: 24px;
+        margin-top: 80px;
+      }
+    
+      .section_2 p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 10px;
+      }
+    
+      .section_3 {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin-top: 40px;
+      }
+    
+      .laptopp img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+      }
+    
+      .quick_search,
+      .icloud_sync,
+      .complete_history {
+        max-width: 100%;
+      }
+    
+      .quick_search h4,
+      .icloud_sync h4,
+      .complete_history h4 {
+        text-align: center;
+        margin-top: 30px;
+      }
+    
+      .quick_search p,
+      .icloud_sync p,
+      .complete_history p {
+        text-align: center;
+        margin-top: 8px;
+      }
+
+      .section_2 h3 {
+        font-size: 24px;
+        margin-top: 80px;
+      }
+    
+      .section_2 p {
+        font-size: 14px;
+        line-height: 24px;  
+        margin-top: 10px;
+      }
+
+      .access_clipboard h3 {
+        font-size: 24px;
+      }
+      
+      .access_clipboard p {
+        font-size: 14px;  
+        line-height: 24px; 
+      }
+      
+      .table_phone img {
+        width: 100%; 
+      }
+      
+      .super h3 {
+        font-size: 24px;
+        margin-left: 50px;
+      }
+
+      .super p {
+        margin-left: 50px;
+      }
+
+      .three_log{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 76px;
+        margin-left: 50px;
+    }
+
+    .three_log img{
+        max-width: 50px;
+    }
+
+      .logotip {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 450px;
+        margin-left: 50px;
+      }
+    
+      .ios h3 {
+        font-size: 24px; 
+        margin-top: 700px;
+        margin-left: 50px;
+      }
+    
+      .ios p {
+        font-size: 14px;  
+        margin-left: 50px;
+      }
+    
+      .buttons {
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 300px;
+        margin-top: 30px;
+      }
+    
+      .download_ios button,
+      .download_mac button {
+        width: 140px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.3px;
+        margin-left: 50px;
+      }
+
+      .fot_ter {
+        width: 100%;
+        height: auto;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        margin-top: 80px;
+        text-align: center;
+      }
+      
+      .ffootteerr {
+        width: 100%;
+        height: auto;
+        margin-top: 80px;
+        margin-left: 0;
+        text-align: center;
+      }
+      
+      .logo {
+        width: 100%;
+        font-size: 16px;
+        line-height: 24px;
+        justify-content: center;
+        margin-left: 140px;
+        padding-top: 50px;
+      }
+      
+      .faqs {
+        width: 100%;
+      }
+      
+      .faqs a {
+        font-size: 16px;
+        line-height: 24px;
+      }
+      
+      .facebook_twitter_instagram {
+        margin-top: 20px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+      }
+      
+      .end{
+    margin-top: 50px;
+    }
+
+    
+  }
+
+
+
+
+
+
+
+
+
+
+/* Media query for mobile devices with a maximum width of 375px */
+/* @media screen and (max-width: 375px) {
+    .container {
+        padding: 20px;
+    }
+
+    .logo_images {
+        margin-top: 64px;
+    }
+
+    .section_1 h1 {
+        font-size: 32px;
+        margin-top: 32px;
+    }
+
+    .section_1 p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 8px;
+    }
+
+    .two_button {
+        max-width: 300px;
+        margin-top: 32px;
+        flex-wrap: wrap;
+    }
+
+    .but1 button,
+    .but2 button {
+        width: 140px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .section_2 h3 {
+        font-size: 24px;
+        margin-top: 80px;
+    }
+
+    .section_2 p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 12px;
+    }
+    .section_3{
+    max-width: 300px;
+    height: auto;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 40px;
+    }
+    
+    .laptopp img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    
+    }
+    
+    .quick {
+    max-width: 300px;
+    
+    }
+    
+    .quick_search {
+    width: 300px;
+    
+    }
+    
+    .quick_search h4 {
+    
+    font-size: 20px;
+    
+    margin-top: 32px;
+    }
+    
+    .quick_search p {
+    
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 8px;
+    }
+    
+    .table_phone{
+    
+    margin-left: 0;
+    
+    margin-top: 80px;
+    }
+
+    .section_3{ 
+        max-width: 300px;  
+        height: auto;   
+        flex-direction: column;      
+        gap: 32px;       
+        margin-top: 40px;
+    }
+    
+    .laptopp img {  
+        width: 100%;
+        height: auto;     
+        margin-left: 0;    
+    }
+    
+    .quick {       
+        max-width: 300px;       
+    }     
+    
+    .quick_search {     
+        width: 300px;
+    }         
+    
+    .quick_search h4 {      
+        font-size: 20px;      
+        margin-top: 32px;
+    }      
+          
+    .quick_search p {     
+        font-size: 14px;     
+        line-height: 24px;
+        margin-top: 8px;
+    }
+    
+    .table_phone{        
+        margin-left: 0;        
+        margin-top: 80px;  
+    }
+
+    .ios {
+        max-width: 300px;
+        }
+        
+        .ios h3{
+        
+        font-size: 24px;
+        }
+        
+        .ios p {
+        
+        font-size: 14px;
+        
+        line-height: 24px;
+        
+        }
+        
+        .buttons {
+        
+        max-width: 300px;
+        
+        }
+        
+        .download_ios button,
+        .download_mac button{
+        width: 140px;
+        height: 40px;
+        
+        font-size: 14px;
+        line-height: 24px;
+        }
+        
+        .ffootteerr{
+        margin-left: 0;
+        }
+        
+        .logo{
+        
+        font-size: 14px;
+        }
+        
+        .faqs a{
+        
+        font-size: 14px;
+        }
+    
+        .fot_ter{
+            max-width: 300px;
+            height: auto;
+            
+            }
+            
+            .ffootteerr{
+            max-width: 300px;
+            
+            }
+            
+            .logo{
+            width: 80px;
+            font-size: 14px;
+            }
+            
+            .faqs {
+            
+            width: 120px;
+            
+            }
+            
+            .faqs a {
+            
+            font-size: 14px;
+            }
+            
+            .facebook_twitter_instagram {
+            gap: 16px;
+            }
+    } */
+    
+
