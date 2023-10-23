@@ -19,7 +19,7 @@
 
 
 .logo_images{
-    margin-top: 128px;
+    margin-top: 50px;
 }
 
 .section_1{
@@ -109,7 +109,7 @@
     font-weight: 600;
     line-height: normal;
     letter-spacing: -0.587px;     
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .section_2 p{
@@ -132,7 +132,7 @@
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 110px;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .laptopp img{
@@ -232,7 +232,7 @@
     font-weight: 600;
     line-height: normal;
     letter-spacing: -0.587px;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 .access_clipboard p{
@@ -249,7 +249,7 @@
 
 .table_phone{
     margin-left: -50px;
-    margin-top: 112px;
+    margin-top: 50px;
 }
 
 .super{
@@ -265,7 +265,7 @@
     font-weight: 600;
     line-height: normal;
     letter-spacing: -0.587px;  
-    margin-top: 163.2px;  
+    margin-top: 50px;  
 }
 
 .super p{
@@ -288,7 +288,7 @@
     align-items: center;
     justify-content: center;
     gap: 30px;
-    margin-top: 76px;
+    margin-top: 50px;
 }
 
 .three_log img{
@@ -379,12 +379,86 @@
     justify-content: center;
     align-items: center;
     gap: 95.47px;
-    margin-top: 150px;
+    margin-top: 70px;
 }
+
+.microsoft{
+    width: 165px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.microsoft{
+    -webkit-filter: grayscale(1);
+    filter: #4C545C;
+}
+
+.microsoft:hover{
+    -webkit-filter: none;
+    filter: #4C545C;   
+}
+
+.google{
+    width: 165px;
+    height: 59px; 
+}
+
+.google{
+    -webkit-filter: grayscale(1);
+    filter: #4C545C;
+}
+
+.google:hover{
+    -webkit-filter: none;
+    filter: #4C545C;   
+}
+
+.IBM{
+    width: 147px;
+    height: 69px; 
+}
+
+.IBM{
+    -webkit-filter: grayscale(1);
+    filter: #4C545C;
+}
+
+.IBM:hover{
+    -webkit-filter: none;
+    filter: #4C545C;   
+}
+
+.HMP{
+    width: 142px;
+    height: 59px; 
+}
+
+.HMP{
+    -webkit-filter: grayscale(1);
+    filter: #4C545C;
+}
+
+.HMP:hover{
+    -webkit-filter: none;
+    filter: #4C545C;   
+}
+
+.vector{
+    -webkit-filter: grayscale(1);
+    filter: #4C545C;
+}
+
+.vector:hover{
+    -webkit-filter: none;
+    filter: #4C545C;   
+}
+
 
 .ios{
     max-width: 730px;
 }
+
+
 
 .ios h3{
     color: #4C545C;
@@ -418,7 +492,7 @@
     justify-content: center;
     align-items: center;
     gap: 16px;
-    margin-top: 48px;
+    margin-top: 30px;
 }
 
 .download_ios button{
@@ -475,7 +549,7 @@
     height: 150px;
     background: #9EABB2;
     /* opacity: 10.02%; */
-    margin-top: 150px;
+    margin-top: 50px;
     margin-left: -50px;
     text-align: left;
 }
@@ -508,8 +582,12 @@ text-align: left;
     line-height: 30px; /* 166.667% */
     letter-spacing: 0.135px;
     text-align: left;   
-    text-decoration: none;  
 }
+.faqs a:hover{
+    color:blue;
+}
+ 
+
 
 .facebook_twitter_instagram{
     display: grid;
@@ -519,9 +597,53 @@ text-align: left;
     gap: 24px;
 }
 
-.end{
-
+.facebook_twitter_instagram .facebook{
+width: 25px;
+height: 25px;
 }
+
+
+.facebook_twitter_instagram .facebook{
+        -webkit-filter: grayscale(1);
+        filter: #4C545C;
+    }
+
+    .facebook_twitter_instagram .facebook:hover{
+        -webkit-filter: none;
+        filter: #4C545C;
+    }
+
+    .facebook_twitter_instagram .twitter{
+        width: 25px;
+        height: 25px;
+        }
+        
+        
+        .facebook_twitter_instagram .twitter{
+                -webkit-filter: grayscale(1);
+                filter: #4C545C;
+            }
+        
+            .facebook_twitter_instagram .twitter:hover{
+                -webkit-filter: none;
+                filter: #4C545C;
+            }
+
+            .facebook_twitter_instagram .instagram{
+                width: 25px;
+                height: 25px;
+                }
+                
+                
+                .facebook_twitter_instagram .instagram{
+                        -webkit-filter: grayscale(1);
+                        filter: #4C545C;
+                    }
+                
+                    .facebook_twitter_instagram .instagram:hover{
+                        -webkit-filter: none;
+                        filter: #4C545C;
+                    }
 
 .facebook_twitter_instagram a{
     cursor: pointer;
@@ -712,7 +834,7 @@ text-align: left;
         line-height: 24px;
         justify-content: center;
         margin-left: 140px;
-        padding-top: 50px;
+        margin-top: 70px;
       }
       
       .faqs {
@@ -725,16 +847,10 @@ text-align: left;
       }
       
       .facebook_twitter_instagram {
-        margin-top: 20px;
+        margin-top: 30px;
         grid-template-columns: repeat(3, 1fr);
         gap: 16px;
-      }
-      
-      .end{
-    margin-top: 50px;
-    }
-
-    
+      }   
   }
 
 
