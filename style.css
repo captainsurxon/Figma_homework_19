@@ -9,7 +9,7 @@
 
 .container{
     max-width: 1440px;
-    padding: 50px;
+    padding: 50px 0px 0px 0px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -18,9 +18,9 @@
 }
 
 
-.logo_images{
+/* .logo_images{
     margin-top: 50px;
-}
+} */
 
 .section_1{
     max-width: 730px;
@@ -77,6 +77,10 @@
     cursor: pointer;
 }
 
+.but1 button:hover{
+    background: #0eb49b;
+}
+
 .but2 button{
     width: 227px;
     height: 56px;
@@ -94,6 +98,10 @@
     line-height: 30px;
     letter-spacing: 0.5px;
     cursor: pointer;
+}
+
+.but2 button:hover{
+    background: #5064ff;
 }
 
 .section_2{
@@ -136,10 +144,10 @@
 }
 
 .laptopp img{
-    width: 752px;
-    height: 572px;
+    width: 852px;
+    height: 672px;
     flex-shrink: 0;
-    margin-left: -287px;
+    margin-left: -487px;
 }
 
 .quick{
@@ -232,7 +240,7 @@
     font-weight: 600;
     line-height: normal;
     letter-spacing: -0.587px;
-    margin-top: 50px;
+    margin-top: 170px;
 }
 
 .access_clipboard p{
@@ -514,6 +522,10 @@
     cursor: pointer;
 }
 
+.download_ios button:hover{
+    background: #0eb49b;
+}
+
 .download_mac button{
     width: 227px;
     height: 56px;
@@ -533,6 +545,11 @@
     cursor: pointer;
 }
 
+.download_mac button:hover{
+    background: #5064ff;
+}
+
+
 .fot_ter{
     width: 1440px;
     height: 150px;
@@ -547,10 +564,9 @@
 .ffootteerr{
     width: 1440px;
     height: 150px;
-    background: #9EABB2;
+    background: #dfe2e3;
     /* opacity: 10.02%; */
     margin-top: 50px;
-    margin-left: -50px;
     text-align: left;
 }
 
@@ -584,7 +600,7 @@ text-align: left;
     text-align: left;   
 }
 .faqs a:hover{
-    color:blue;
+    color: #26BBA4;
 }
  
 
